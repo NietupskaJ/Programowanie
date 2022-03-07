@@ -1,1 +1,1 @@
-import Lab1.py
+import Lab1
