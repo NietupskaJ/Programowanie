@@ -107,9 +107,9 @@ Snake Case: user_login_count
 
 # 6. Sprawdź czy suma dowolnych dwóch liczb podanych przez użytkownika jest liczbą parzystą czy nieparzystą wyświetl właściwy komunikat
 
-x = int(input("Podaj liczbe:")
-reszta = x%2
-print('Liczba', x,'jest parzysta:', reszta == 0)
+# x = int(input("Podaj liczbe:")
+# reszta = x%2
+# print('Liczba', x,'jest parzysta:', reszta == 0)
 
 # 7. Utwórz prosty kalkulator dla 2 zmiennych podanych przez użytkownika, który obliczy: sumę, różnicę,
 # iloczyn, iloraz, potęgę tych liczb, nie zapomnij o stosownych komentarzach informacyjnych dla użytkownika.
@@ -124,8 +124,21 @@ print('Liczba', x,'jest parzysta:', reszta == 0)
 #(x > 1 and x < 13) and x != 5  , dla x = 2
 # Zadania dodatkowe:
 # 1. Wykonaj mini ankietę tj. poproś użytkownika o następujące informacje: imie, nazwisko, wiek, zadaj mu pytania: "Czy zdrowo się odżywiasz?",
+
+# zm1 = float(input("Podaj imie: "))
+# zm2 = float(input("Podaj nazwisko: "))
+# zm3 = float(input("Podaj wiek: " ))
+
+
+
+# imie = input("Podaj imie: ")
+# nazwisko = input("Podaj nazwisko: ")
+# wiek = input("Podaj wiek: ")
+# kierunek  = input("Podaj nazwe kierunku : ")
+
 # , "Czy lubisz sport?" i dodatkowo 3 inne własne. Po uzyskaniu wszystkich odpowiedzi wyświetl ich podsumowanie.
 # 2. Twoim zadaniem jest przygotowanie uniwersalnego i profesjonalnego życiorysu, złożonego z 10-ciu zdań, które wyświetlisz na ekranie
+# print(Urodził się 20.04.1998 r. w Warszawie, na Bielanach. Jest synem nauczycielki polskiego i profesora nauk humanistycznych. Swoją edukację rozpoczął w Szkole Podstawowej  z Oddziałami Integracyjnymi nr. 223  im.Partyzantów Ziemi Kieleckiej. Miał dwie starsze siostry: Elżbietę, która była pielęgniarką  i Marię, która specjalizowała się w badaniach nad czarnymi dziurami, wykładała fizykę na Uniwersytecie Warszawskim. Swoją młodość spędził na Uniwersytecie w Białymstoku,studiował filologię polską. Po skończonych studiach zaczął pracę w renomowanym liceum. Opócz pracy, wiele czasu spędzał w Białowieskim Parku Narodowym.   Z zamiłowaniem oglądał ptaszynę i niepotykane nigdzie gatunki owadów, zwierząt.  )
 # Użytkownik wpisuje tylko swoje imie, nazwisko, wiek, zawód, miejsce urodzenia, zainteresowania i ... życiorys jest gotowy.
 # 3. Przygotuj dla dziecka, które uczy się czytać zestaw sylab do nauki, ale zrób to inteligentnie tj.
 # dziecko wpisuje na klawiaturze 1 spółgłoskę a Ty dodajesz do niej odpowiednie samogłoski i wyświetlasz całość na ekranie
