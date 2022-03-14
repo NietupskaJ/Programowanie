@@ -164,19 +164,19 @@
 
 ## następnie wyświetl kompletne dane osoby o numerze wskazanej przez użytkownika
 
-dict_dane_osobowe = {'imie': ['Ala', 'Ola','Jola'],
+# dict_dane_osobowe = {'imie': ['Ala', 'Ola','Jola'],
 
-'nazwisko': ['Kowalska', 'Kwiatek', 'Nowak'],
+# 'nazwisko': ['Kowalska', 'Kwiatek', 'Nowak'],
 
-'wiek': [20, 30,40]}
+# 'wiek': [20, 30,40]}
 
-id = int(input('Podaj id osoby od 0 do 2: '))
+# id = int(input('Podaj id osoby od 0 do 2: '))
 
-print(dict_dane_osobowe['imie'][2])
+# print(dict_dane_osobowe['imie'][1])
 
-print(dict_dane_osobowe['nazwisko'][2])
+# print(dict_dane_osobowe['nazwisko'][1])
 
-print(dict_dane_osobowe['wiek'][2])
+# print(dict_dane_osobowe['wiek'][1])
 
 #################################################################
 
@@ -238,9 +238,9 @@ print(dict_dane_osobowe['wiek'][2])
 
 ######################Zadanie 3
 
-## Do poprzednio utworzonego słownika dodaj nowy klucz o nazwie "Kierunek"
+# Do poprzednio utworzonego słownika dodaj nowy klucz o nazwie "Kierunek"
 
-## wartość klucza wpisuje użytkownik
+# wartość klucza wpisuje użytkownik
 
 # dict_dane_osobowe = {'imie': ['Ala', 'Ola'],
 
@@ -272,9 +272,8 @@ print(dict_dane_osobowe['wiek'][2])
 
 # print(cars_countries)
 
-# l = len(keys) # liczy długość, ilość elementów
+#####len(slownik) # liczy długość, ilość elementów
 
-# print(l)
 
 # print(len(cars_countries))
 
@@ -327,7 +326,13 @@ print(dict_dane_osobowe['wiek'][2])
 ######################Zadanie 4
 
 ## Wyświetl nazwy kluczy swojego słownika, oraz ilość elementów
-
+# dict_dane_osobowe ={'imie',:['Ala','Ola'],
+#                    'nazwisko':['Kowalska','Kwiatek'],
+#                   'wiek':[20,30]
+#}
 ######################Zadanie 5
 
-## Zamień wszystkie nazwy imion w kluczu imie w swoim słowniku na inn
+## Zamień wszystkie nazwy imion w kluczu imie w swoim słowniku na inne
+dict_dane osobowe
+dict_dane_osobowe['imie'] = ['Jan', 'Tomek']
+print(dict_dane_osobowe)
