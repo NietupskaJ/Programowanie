@@ -333,6 +333,6 @@
 ######################Zadanie 5
 
 ## Zamień wszystkie nazwy imion w kluczu imie w swoim słowniku na inne
-dict_dane osobowe
-dict_dane_osobowe['imie'] = ['Jan', 'Tomek']
-print(dict_dane_osobowe)
+# dict_dane osobowe
+# dict_dane_osobowe['imie'] = ['Jan', 'Tomek']
+# print(dict_dane_osobowe)
