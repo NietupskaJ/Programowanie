@@ -149,12 +149,12 @@ Snake Case: user_login_count
 
 
 # 4. Użytkownik podaje imie, sprawdź czy to imie to Janusz lub Grażyna
-a=True
-b=False
-print(type(a))
+# a=True
+# b=False
+# print(type(a))
 
-print(x == y)   
-print(x != y)   
-# a = Grazyna, Janusz
+# print(x == y)   
+# print(x != y)   
+# # a = Grazyna, Janusz
 
 
