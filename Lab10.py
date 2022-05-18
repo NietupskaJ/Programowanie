@@ -22,13 +22,13 @@ from tkinter import *  #biblioteka do tworzenia interfejsu graficznego użytkown
 
 # def printImie():  # funkcja wywoływana po wciśnięciu kontrolki przycisk1 z etykietą imie
 #     print("Aneta")
-#
+
 # def printNazwisko():  # funkcja wywoływana po wciśnięciu kontrolki przycisk1 z etykietą nazwisko
 #     print("Polewko-Klim")
-#
+
 # okno2 = Tk() #tworzenie głównego okna
 # okno2.geometry("300x300") # rozmiar okna
-#
+
 # przycisk1 = Button(okno2, text = "imie", fg="blue", command = printImie)
 # przycisk1.grid(row = 1,column = 1)
 # #
@@ -54,7 +54,7 @@ from tkinter import *  #biblioteka do tworzenia interfejsu graficznego użytkown
 # # #
 # przycisk1 = Button(okno , text = "OK", command = pobierzDaneZedittext1, fg="blue")
 # przycisk1.grid(row = 3,column = 1) # grid() sposób ustawienia kontrolek, traktuje okno jako siatkę,
-#
+
 # okno.mainloop()
 
 
@@ -204,8 +204,58 @@ from tkinter import *  #biblioteka do tworzenia interfejsu graficznego użytkown
 # przycisk3.grid(row = 4,column = 1)
 # okno.mainloop()
 
+
+
+###################################################
 #############Zadanie 5 ######################
+
 # Rozbuduj kalkulator danych o opcje potęgowania
+
+# def wyswietlWynik():   
+#    if var.get() == 1:
+#         wynikDzialania = int(text1.get()) + int(text2.get())
+#    if var.get() == 2:
+#        wynikDzialania = int(text1.get()) - int(text2.get())
+#    if var.get() == 3:
+#        wynikDzialania = int(text1.get()) * int(text2.get())
+#    if var.get() == 4:
+#        wynikDzialania = int(text1.get()) / int(text2.get())
+#   if var.get() == 5:
+#        wynikDzialania = int(text1.get()) ^ int(text2.get())
+
+#    mojtekst = "Wynik działania to: " + str(wynikDzialania)
+#    etykieta_text3.config(text = mojtekst) 
+
+# okno = Tk()
+# var = IntVar()  
+# okno.title("Kalkulator")
+# okno.geometry("400x200")
+# etykieta_text1 = Label(okno, text ="Wpisz pierwszą liczbę: ")
+# etykieta_text1.grid(row = 1,column = 1)
+# etykieta_text2 = Label(okno, text ="Wpisz drugą liczbę: ")
+# etykieta_text2.grid(row = 2,column = 1)
+# text1 = Entry(okno,fg='red')
+# text1.grid(row = 1,column = 2)
+# text2 = Entry(okno,fg='blue')
+# text2.grid(row = 2,column = 2)
+# R1 = Radiobutton(okno, text=" + ", variable=var, value=1)
+# R1.grid(row = 1,column = 3)
+# R2 = Radiobutton(okno, text=" - ", variable=var, value=2)
+# R2.grid(row = 2,column = 3)
+# R3 = Radiobutton(okno, text=" * ", variable=var, value=3)
+# R3.grid(row = 3,column = 3)
+# R4 = Radiobutton(okno, text=" / ", variable=var, value=4)
+# R4.grid(row = 4,column = 3)
+# R5 = Radiobutton(okno, text=" ^ ", variable=var, value=5)
+# R5.grid(row = 5,column = 3)
+# etykieta_text3 = Label(okno, text ="Wynik działania to: 0")
+# etykieta_text3.grid(row = 3,column = 1)
+# przycisk3 = Button(okno , text = "Enter", command = wyswietlWynik, fg="red")
+# przycisk3.grid(row = 4,column = 1)
+# okno.mainloop()
+
+
+
 #############Zadanie 6 ######################
 # Utwórz program który będzie grą dla dzieci:
 # wyświetlana jest treść zagadki dla dziecka
@@ -236,7 +286,7 @@ from tkinter import *  #biblioteka do tworzenia interfejsu graficznego użytkown
 # etykieta_text2.grid(row = 4,column = 1)
 # okno.mainloop()
 
-#############Przykład 7 ######################
+############Przykład 7 ######################
 # Utwórz program który będzie grą dla dzieci:
 # wyświetlana jest treść zagadki dla dziecka
 # dziecko wpisuje odpowiedź do pola (kontrolka Entry)
@@ -269,3 +319,16 @@ from tkinter import *  #biblioteka do tworzenia interfejsu graficznego użytkown
 #############Zadanie 6 ######################
 # Rozbuduj Program 6 o swoje własne zagadki min.3
 #############################################
+# okno = Tk()
+#var = IntVar()
+# okno.geomtry ("400x300")
+# etykieta_text1 = Label(okno, text = "Jak nazywa się  obecny prezydent Ukrainy?")
+# etykieta_text1.grid(row = 1, column = 1)
+#text
+# etykieta_text2 = Label(okno, text = " Ile jest  mieszkańców Polski?")
+# etykieta_text2.grid(row = 3, column = 1)
+# etykieta_text3 = Label(okno, text = "Jak się nazywa przyjaciel Kubusia")
+# etykieta_text3.grid(row = 5, column = 1)
+# przycisk1 = Button(okno, text = "Sprawdz wynik", comand = wyswietlWynik,
+# okno.mainloop()
+# zmienić indetyfikatory 

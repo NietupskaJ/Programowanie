@@ -142,20 +142,20 @@ import fnmatch    # to jest moduł umożliwiający wyszukiwanie określonych ci�
 ## pliki odpowiednio tekstowe, graficzne, a następnie wyświetl zawartość poszczególnych
 ## folderów podaj rozmiar każdego pliku
 
-nazwa_folderu_doc = 'C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentDoc'
-lista_doc = os.listdir(nazwa_folderu_doc)
-# os.path.join(path, nazwa pliku)  ta metoda łączy ścieżke z nazwą pliku
+# nazwa_folderu_doc = 'C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentDoc'
+# lista_doc = os.listdir(nazwa_folderu_doc)
+# # os.path.join(path, nazwa pliku)  ta metoda łączy ścieżke z nazwą pliku
 
-for plik in lista_doc:  # iterujemy się kolejno po nazwach plików w liście
-    pathplik = os.path.join('C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentDoc/', plik)
-    print('Plik: {} ma rozmiar w bajtach: {}'.format(plik,os.path.getsize(pathplik)))
+# for plik in lista_doc:  # iterujemy się kolejno po nazwach plików w liście
+#     pathplik = os.path.join('C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentDoc/', plik)
+#     print('Plik: {} ma rozmiar w bajtach: {}'.format(plik,os.path.getsize(pathplik)))
 
-#####
-nazwa_folderu_image = 'C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentObrazy'
-lista_image = os.listdir(nazwa_folderu_image)
-for plik in lista_image:
-    pathplik = os.path.join('C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentObrazy/', plik)
-    print('Plik: {} ma rozmiar w bajtach: {}'.format(plik,os.path.getsize(pathplik)))
+# #####
+# nazwa_folderu_image = 'C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentObrazy'
+# lista_image = os.listdir(nazwa_folderu_image)
+# for plik in lista_image:
+#     pathplik = os.path.join('C:/Users/Student/PycharmProjects/ProgramowaniePython/StudentObrazy/', plik)
+#     print('Plik: {} ma rozmiar w bajtach: {}'.format(plik,os.path.getsize(pathplik)))
 
 ############################### Przykład 7 ###############
 ## Metoda makedirs() służy do tworzenia nowego folderu w bieżącym folderze
