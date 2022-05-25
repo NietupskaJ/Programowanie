@@ -65,9 +65,6 @@ from tkinter import *  # biblioteka do tworzenia interfejsu graficznego użytkow
 #     print("tacie")
 #   elif var.get()==3:
 #    print("siostrze")
-
-
-
 # okno2 = Tk()
 # okno2.title("Ankieta")
 # okno2.geometry("400x200")

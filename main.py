@@ -18,3 +18,5 @@ import Lab9
 import Lab10
 #Zadania z laboratorium 11
 import Lab11
+#Zadania z laboratorium 12
+import Lab12
