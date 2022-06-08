@@ -102,7 +102,7 @@ import os
 
 ########################### Przykład 5 - Filtrowanie nazw plików i katalogów według określonego wzorca ########
 
-import fnmatch    # to jest moduł umożliwiający wyszukiwanie określonych ciągów znaków, zapewnia obsługę symboli wieloznacznych.
+# import fnmatch    # to jest moduł umożliwiający wyszukiwanie określonych ciągów znaków, zapewnia obsługę symboli wieloznacznych.
 ### funkcja o takiej samej nazwie jak moduł fnmatch(nazwa, wzorzec) sprawdza czy podana nazwa (typ String)
 ### zaczyna i/lub kończy się na określony wzorzec (typ String)
 #

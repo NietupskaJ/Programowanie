@@ -20,3 +20,7 @@ import Lab10
 import Lab11
 #Zadania z laboratorium 12
 import Lab12
+#Zadania z laboratorium 13
+import Lab13
+#Zadania z laboratorium 14
+import Lab14
